@@ -357,6 +357,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #eee;
 }
 
+.hs_footer_copyright_area p {
+  margin-bottom: 0;
+}
+
 .fs_footer_social_media li {
   margin-right: 10px;
   display: inline-block;
