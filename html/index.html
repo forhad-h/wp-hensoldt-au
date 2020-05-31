@@ -103,8 +103,8 @@
     <section class="hs_banner">
       <div id="hs-banner-slider" class="owl-carousel owl-theme">
 
-        <div class="item" style="background-image: url(assets/images/banner1.jpg)">
-          <div class="container-fluid">
+        <div class="item" style="background-image: url(assets/images/banner_one.png)">
+          <div class="container">
             <div class="row">
               <div class="offset-md-2">
                 <h1>Hensoldt Australia</h1>
@@ -114,9 +114,8 @@
           </div>
         </div>
 
-
-        <div class="item" style="background-image: url(assets/images/banner2.png)">
-          <div class="container">
+        <div class="item" style="background-image: url(assets/images/banner_two.jpg)">
+          <div class="container-fluid">
             <div class="row">
               <div class="offset-md-2">
                 <h1>Hensoldt Australia</h1>
@@ -136,7 +135,7 @@
     <!-- Empty space end -->
 
     <!-- Services start -->
-    <section class="hs_services ptb-50">
+    <section class="hs_services ptb-50" style="background-image: url(assets/images/services_back_three.png), url(assets/images/plane_circle_root.png), url(assets/images/service_back_one.png)">
       <div class="container-fluid plr-5pc">
 
         <div class="row">
@@ -144,6 +143,8 @@
             <h2 class="hs_section_title">Solution</h2>
           </div>
         </div>
+
+        <div style="height: 30px;"></div>
 
         <div class="row">
 
@@ -269,6 +270,8 @@
     <section class="hs_reference ptb-50 plr-5pc" style="background-image: url(assets/images/Rectangle@1X.png)">
       <div class="container-fluid">
 
+
+
         <div class="row">
           <div class="hs_section_intro offset-md-2">
             <h2 class="hs_section_title">Our References</h2>
@@ -280,7 +283,14 @@
 
         <div style="height: 35px;"></div>
 
-        <div class="row">
+        <div class="hs_reference__overlay_image_one">
+          <img src="assets/images/reference_overlay_image_one.png" alt="" />
+        </div>
+
+        <div class="hs_reference__overlay_image_two">
+          <img src="assets/images/reference_overlay_image_two.png" alt="" />
+        </div>
+        <div class="row hs_reference__main_content">
 
           <div class="col-md-4 mb-30">
             <div class="hs_single_reference">
@@ -324,9 +334,6 @@
 
       </div><!-- .container -->
 
-      <div class="hs_reference_overlay_image">
-        <img src="" alt="" />
-      </div>
     </section><!-- .hs_reference -->
     <!-- Reference end -->
 
@@ -394,51 +401,53 @@
         <p class="text-secondary mb-4">Send us a message with your suggestion.</p>
       </div>
 
-      <div class="hs_contact_form">
+      <div style="background-image: url(assets/images/contact_us_back.png);background-size: contain;background-repeat: no-repeat">
+        <div class="hs_contact_form">
 
-        <form>
-          <div class="row">
+          <form>
+            <div class="row">
 
-            <div class="col-md-6">
-              <div class="form-group mb-4">
-                <input type="text" class="form-control" placeholder="Name">
+              <div class="col-md-6">
+                <div class="form-group mb-4">
+                  <input type="text" class="form-control" placeholder="Name">
+                </div>
               </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group mb-4">
-                <input type="text" class="form-control" placeholder="Email">
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="form-group mb-4">
-                <input type="text" class="form-control" placeholder="Phone">
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group mb-4">
-                <input type="text" class="form-control" placeholder="Company">
-              </div>
-            </div>
-
-            <div class="col-md-12">
-
-              <div class="form-group">
-                <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+              <div class="col-md-6">
+                <div class="form-group mb-4">
+                  <input type="text" class="form-control" placeholder="Email">
+                </div>
               </div>
 
-            </div>
-            <div class="col-md-12 text-center">
-              <button type="submit" class="btn ms_btn_one d-inline-block">
-                Send Message
-                <svg class="bi bi-arrow-right-short" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z" />
-                  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z" />
-                </svg>
-              </button>
-            </div>
-          </div><!-- .row -->
-        </form>
+              <div class="col-md-6">
+                <div class="form-group mb-4">
+                  <input type="text" class="form-control" placeholder="Phone">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group mb-4">
+                  <input type="text" class="form-control" placeholder="Company">
+                </div>
+              </div>
+
+              <div class="col-md-12">
+
+                <div class="form-group">
+                  <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                </div>
+
+              </div>
+              <div class="col-md-12 text-center">
+                <button type="submit" class="btn ms_btn_one d-inline-block">
+                  Send Message
+                  <svg class="bi bi-arrow-right-short" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z" />
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z" />
+                  </svg>
+                </button>
+              </div>
+            </div><!-- .row -->
+          </form>
+        </div>
       </div>
 
     </section><!-- .hs_contact_form -->

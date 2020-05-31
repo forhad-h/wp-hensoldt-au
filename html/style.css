@@ -117,6 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 #hs-banner-slider .item {
   padding-top: 15vw;
   padding-bottom: 15vw;
+  background-size: 100%;
 }
 
 #hs-banner-slider .item::before {
@@ -170,6 +171,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Services section */
 .hs_services {
   background-color: #EDEDED;
+  background-position: left bottom, right 50px, left top;
+  background-size: 100%, auto, auto;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
 }
 
 .hs_single_service {
@@ -250,12 +255,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Reference */
+.hs_reference {
+  position: relative;
+  overflow: hidden;
+}
+
 .hs_reference .hs_section_title {
   color: #eee;
 }
 
 .hs_reference p {
   color: #ddd;
+}
+
+.hs_reference .hs_reference__overlay_image_one {
+  position: absolute;
+  right: -320px;
+  top: 15%;
+}
+
+.hs_reference .hs_reference__overlay_image_two {
+  position: absolute;
+  z-index: 1;
+  bottom: -255px;
+  left: -30px;
+}
+
+.hs_reference .hs_reference__main_content {
+  z-index: 2;
+  position: relative;
 }
 
 .hs_single_reference {
@@ -309,6 +337,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Contact Form */
 .hs_contact {
   background-color: #EDEDED;
+  width: 100%;
 }
 
 .hs_contact .hs_contact_form {
